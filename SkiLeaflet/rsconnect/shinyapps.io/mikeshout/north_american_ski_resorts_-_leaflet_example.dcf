@@ -3,9 +3,9 @@ title: North American Ski Resorts - Leaflet Example
 account: mikeshout
 server: shinyapps.io
 appId: 195332
-bundleId: 897026
+bundleId: 897027
 url: https://mikeshout.shinyapps.io/north_american_ski_resorts_-_leaflet_example/
-when: 1499602291.22548
+when: 1499602475.32671
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .RData|~$skiResorts.xlsx|ski.csv|ski_resort_stats_orig.csv|skiResorts.xlsx|SkiResultsSorted.xlsx

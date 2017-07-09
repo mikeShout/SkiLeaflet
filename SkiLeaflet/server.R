@@ -11,6 +11,11 @@ library(shiny)
 library(leaflet)
 library(lubridate)
 
+skiData <- read.csv("ski_resort_stats.csv")
+skiData[is.na(skiData)] <- 0
+states <- data.frame(st = unique(skiData[,2]))
+states <- rbind(data.frame(st = "All"), states)
+
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
    
